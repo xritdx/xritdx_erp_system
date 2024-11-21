@@ -1,0 +1,49 @@
+/* Containing div for centering */
+.searchbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Wrapper div for icon and input */
+.searchbar-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    padding: 3px 15px;
+}
+
+/* Input field styles */
+.searchbar-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 32px;  /* Create space for the icon */
+    border-radius: 6px;
+    background-color: #f0f5ff;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+
+}
+
+.searchbar-input:focus {
+    border-color: #a3bffa;
+    box-shadow: 0 0 4px rgba(163, 191, 250, 0.6);
+}
+
+.searchbar-input::placeholder {
+    color: #aaa;
+}
+
+/* Icon style */
+.search-icon {
+    font-size: 18px;
+    color: #aaa;
+    position: absolute;
+    left: 10px;
+}
